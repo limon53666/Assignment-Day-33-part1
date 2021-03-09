@@ -1,0 +1,138 @@
+
+.main-header {
+	background-color: #e0e0e0;
+	 padding: 0px; 
+}
+.main-header img {
+
+	max-height: 70px;
+}
+body{
+    overflow-x: hidden;
+}
+
+ul.our-primare-menu{}
+ul.our-primare-menu li{}
+ul.our-primare-menu li a {
+	text-decoration: none;
+	display: inline-block;
+	color: #111;
+	padding: 30px 20px;
+	font-weight: 500;
+	
+}
+ul.our-primare-menu li:first-child a{
+    color: blue;
+    position: relative;
+    
+}
+ul.our-primare-menu li:first-child::after {
+	content: "";
+	position: absolute;
+	height: 3px;
+	width: 27px;
+	background-color: blue;
+	bottom: 0;
+	left: 18px;
+} 
+ul.our-primare-menu{
+	position: relative;
+}
+ul.our-primare-menu li:last-child::after {
+	content: "";
+	position: absolute;
+	height: 3px;
+	width: 27px;
+	background-color: blue;
+	bottom: 0;
+	right: 198px;
+}
+
+ul.our-primare-menu li{
+    position: relative;
+	
+}
+ul.our-primare-menu li ul {
+	position: absolute;
+	width: 221px;
+	left: 0;
+	top: 100%;
+	background: #fafafa;
+	list-style: none;
+	padding: 20px;
+	 opacity: 0; 
+	visibility: hidden; 
+	transition: all .3s ease-in-out;
+	box-shadow: 0 0 15px 0 rgb(0 0 0 / 10%);
+	transition: .4s;
+	
+}
+ul.our-primare-menu li ul li{
+	background-color: blue;
+	
+}
+ul.our-primare-menu li ul li a {
+	color: #fff;
+	background: blue;
+	padding: 11px 50px;
+	border-radius: 5px;
+}
+
+ul.our-primare-menu li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+ul.our-primare-menu li ul li{
+    flex-direction: column;
+}
+
+
+
+body .btn-primary{
+    background-color: #fff;
+    color: blue;
+    border-color: #fff;
+}
+
+
+    
+
+body .btn-primary {
+	background-color: #fff;
+	color: blue;
+	border-color: #fff;
+	padding: 14px 30px;
+	border-radius: 25px;
+}
+
+.slider-section{
+    background-color: #f6f9fc;
+
+}
+
+/* slider css */
+.slider-content-wrap{
+    height: 100vh;
+    align-items: center;
+    display: flex;
+}
+.slider-content h1 {
+	font-weight: 800;
+}
+.slider-content p{}
+.slider-content .f-btn{
+    background-color: #3763eb;
+    color: #fff;
+}
+.img-man {
+	background: url(https://i.postimg.cc/C5JVHStP/hero-image.jpg) no-repeat top center;
+	position: relative;
+	top: -187px;
+	left: 56px;
+	border-radius: 50%;
+	height: 783px;
+	width: 783px;
+
+}
